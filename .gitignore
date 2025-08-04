@@ -1,0 +1,7 @@
+# 配置文件
+.github/
+
+# Python 缓存文件
+__pycache__/
+*.pyc
+*.pyo
