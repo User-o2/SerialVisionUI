@@ -77,7 +77,7 @@ class UiMainWindow:
         self.serial_open_button = QtWidgets.QPushButton(self.serial_group)
         self.serial_open_button.setGeometry(QtCore.QRect(230, 80, 121, 51))
         self.serial_open_button.setObjectName("serial_open_button")
-        self.serial_open_button.setText("关闭串口")
+        self.serial_open_button.setText("打开串口")
         self.serial_open_button.setFont(font)
         
         self.serial_close_button = QtWidgets.QPushButton(self.serial_group)
@@ -108,7 +108,7 @@ class UiMainWindow:
         self.camera_open_button = QtWidgets.QPushButton(self.camera_group)
         self.camera_open_button.setGeometry(QtCore.QRect(150, 410, 111, 61))
         self.camera_open_button.setObjectName("camera_open_button")
-        self.camera_open_button.setText("关闭摄像头")
+        self.camera_open_button.setText("打开摄像头")
         font.setPointSize(10)
         self.camera_open_button.setFont(font)
         
