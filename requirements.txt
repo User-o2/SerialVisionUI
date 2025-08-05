@@ -1,0 +1,23 @@
+# 智能装配平台依赖包
+# UI框架
+PyQt5>=5.15.0
+
+# 计算机视觉和图像处理
+opencv-python>=4.5.0
+numpy>=1.21.0
+
+# 二维码处理
+pyzbar>=0.1.8
+
+# 串口通信
+pyserial>=3.5
+
+# UI主题
+qt-material>=2.10
+
+# 打包工具
+pyinstaller>=4.5
+
+# 开发和测试工具
+pytest>=6.0.0
+pytest-qt>=4.0.0
